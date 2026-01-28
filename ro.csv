@@ -1,0 +1,89 @@
+OVERLAYS
+    ">Saving",">Se salvează"
+    ">Checking for updates",">Se caută actualizări"
+
+
+BUTTONS
+    "> Settings","> Setări"
+
+
+MENU ITEMS
+    ">Current page",">Pagina actuală"
+    ">Menu",">Meniu"
+    ">Files",">Fișiere"
+    ">Themes",">Teme
+    ">Plugins",">Plugin-uri"
+    ">Security",">Securitate"
+
+
+CURRENT PAGE
+    ">Page title",">Titlu pagină"
+    ">Page keywords",">Cuvinte cheie pagină"
+    ">Page description",">Descriere pagină"
+    "> Delete page","> Ștergere pagină"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Ștergeți $1?')"
+
+
+MENU
+    ">Website title","> Titlu website"
+    ">Page to display on homepage","> Pagină principală"
+    ">visit",">vizitați"
+    "> Add page","> Adăugare pagină"
+
+
+FILES
+    ">Upload","> Încărcare"
+    ">Delete files","> Ștergere fișiere"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> Căutare actualizări"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Eliminați $1?')"
+    ">Active",">Activ"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Activați tema $1?')"
+    "> Activate","> Activare"
+    "> More info","> Mai multe informații"
+    "> Install","> Instalare"
+    ">Installed version:",">Versiunea instalată:"
+    ">Custom repository",">Depozit particular"
+    "Enter URL to custom repository","Introduceți adresa depozitului particular"
+    "> Add", "> Adăugare"
+    "> Read more about custom repositories",">Aflați mai multe despre depozitele particulare"
+
+
+SECURITY
+    ">Admin login URL",">Adresa paginii de conectare administrator"
+    ">Save your login URL to log in to your website next time:",">Salvați adresa de conectare pentru a vă putea conecta la site data viitoare"
+    ">Password",">Parolă"
+    "Old password","Parolă veche"
+    "New password","Parolă nouă"
+    "> Change password","> Schimbare parolă"
+
+    "> How to restore backup","> Cum să restaurați din backup"
+    ">Improved security \(Apache only\)",">Securitate îmbunătățită (doar pentru Apache)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Redirecționare HTTPS, cache de 30 de zile, iframe-uri permise doar din aceeași origine, prevenirea detectării tipului MIME, politică mai strictă privind cookie-urile și referenții."
+    ">ON \(warning: may break your website\)",">PORNIT (atenție: poate să defecteze siteul)"
+    ">OFF \(reset htaccess to default\)",">OPRIT (restează htaccess la implicit)"
+    "> Read more before enabling","> Aflați mai multe înainte de a activa"
+    ">Backup",">Backup"
+    "> Backup website","> Faceți backup siteului"
+    ">Last 5 logins",">Ultimele 5 conectări"
+
+
+STATISTICS
+    ">Statistics",">Statistici"
+    ">Today",">Astăzi"
+    ">This week",">Săptămâna aceasta"
+    ">Most popular page",">Cea mai populară pagină"
+    ">Pageviews last two weeks",">Vizualizări în ultimele două săptămâni"
+    ">Sessions last two weeks",">Sesiuni în ultimele două săptămâni"
+    ">Sessions",">Sesiuni"
+    ">Pageviews",">Vizualizări"
+
+
+FOOTER
+    ">News",">Știri"
+    ">Community",">Comunitate"
+    ">Docs",">Documentație"
+    ">Donate",">Donații"
+    ">Shop\/Merch",">Magazin"
