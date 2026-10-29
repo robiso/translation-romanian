@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description",">Descriere pagină"
     "> Delete page","> Ștergere pagină"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Ștergeți $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Ștergeți $1?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Căutare actualizări"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Eliminați $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Eliminați $1?"""
     ">Active",">Activ"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Activați tema $1?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Activați tema $1?"""
     "> Activate","> Activare"
     "> More info","> Mai multe informații"
     "> Install","> Instalare"
