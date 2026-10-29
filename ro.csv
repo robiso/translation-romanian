@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","Modulul personalizat nu a fost găsit."
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","Modulul personalizat <b>$1</b> a fost eliminat din secțiunea <a $2>$3</a>. Tot ce a fost instalat din el rămâne până când îl eliminați."
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","Modul adăugat cu succes în secțiunea <a $1>$2</b></a>."
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","Toate paginile rămase sunt private, deci și noua pagină principală ($1) este privată: vizitatorii primesc pagina 404 la adresa site-ului. Faceți-o publică din Setări -> Meniu."
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","O pagină privată nu poate fi pagina principală: vizitatorii ar primi pagina 404 la adresa site-ului. Faceți-o mai întâi publică."
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","Nu s-a putut scrie $1. Verificați spațiul liber pe disc și permisiunile folderului data; nu s-a modificat nimic."
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","Această pagină nu poate fi salvată: pagina părinte nu există. Creați mai întâi pagina părinte."
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>Deschideți opțiunile pentru fișiere pentru a vedea fișierul încărcat</b>"
     "^Cannot create ZIP archive\.$","Arhiva ZIP nu a putut fi creată."
     "^Hide all alerts until next login$","Ascundeți toate alertele până la următoarea autentificare"
+    "^Make another page public first: the home page cannot be private\.$","Faceți mai întâi publică o altă pagină: pagina principală nu poate fi privată."
