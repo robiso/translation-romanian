@@ -198,7 +198,7 @@ ALERTS
     "^<b>This page \(([^<]*?)\) doesn't exist\.<\/b> Editing the content below will create it\.$","<b>Această pagină ($1) nu există.</b> Dacă editați conținutul de mai jos, pagina va fi creată."
     "^Change your login URL and save it for later use\. <a ","Schimbați URL-ul de autentificare și păstrați-l pentru mai târziu. <a "
     "<b>Open security settings<\/b>","<b>Deschideți setările de securitate</b>"
-    "<h3>New WonderCMS update available<\/h3>","<h3>Este disponibilă o actualizare nouă WonderCMS</h3>"
+    "<h3>New WonderCMS update available<\/h3>","<h3>Este disponibilă o nouă actualizare WonderCMS</h3>"
     "<b>Check what's new<\/b><\/u><\/a>\s+and <b>backup your website<\/b> before updating\.","<b>Vedeți ce este nou</b></u></a> și <b>faceți o copie de rezervă a site-ului</b> înainte de actualizare."
     "name=""backup""><i class=""installIcon""><\/i>Download backup<\/button>","name=""backup""><i class=""installIcon""></i>Descărcați copia de rezervă</button>"
     "<i class=""refreshIcon""><\/i>Update WonderCMS ([^<]+) to ([^<]+)<\/button>","<i class=""refreshIcon""></i>Actualizați WonderCMS de la $1 la $2</button>"
