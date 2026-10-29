@@ -5,13 +5,14 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Setări"
+    "return confirm\('Log out\?'\)","return confirm('Vă deconectați?')"
 
 
 MENU ITEMS
     ">Current page",">Pagina actuală"
     ">Menu",">Meniu"
     ">Files",">Fișiere"
-    ">Themes",">Teme
+    ">Themes",">Teme"
     ">Plugins",">Plugin-uri"
     ">Security",">Securitate"
 
@@ -29,6 +30,10 @@ MENU
     ">Website title","> Titlu website"
     ">Page to display on homepage","> Pagină principală"
     ">visit",">vizitați"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Faceți pagina privată (doar dumneavoastră o vedeți cât timp sunteți conectat)"""
+    "title=""Make page public""","title=""Faceți pagina publică"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> privată</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> publică</a>"
     "> Add page","> Adăugare pagină"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Căutare actualizări"
+    "title=""Remove this repository from the list""","title=""Eliminați acest depozit din listă"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Eliminați $1? Tot ce a fost instalat din el rămâne."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Eliminați $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Eliminați $1?"""
     ">Active",">Activ"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Activați tema $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Activați tema $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Dezactivați $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Acesta este un plugin de tip $1. Instalarea lui $2 va dezactiva $3. Continuați?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Acesta este un plugin de tip $1. Actualizarea lui $2 îl lasă activ și dezactivează $3. Continuați?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Acesta este un plugin de tip $1. Activarea lui $2 va dezactiva $3. Continuați?"""
     "> Activate","> Activare"
     "> More info","> Mai multe informații"
     "> Install","> Instalare"
     ">Installed version:",">Versiunea instalată:"
     ">Custom repository",">Depozit particular"
     "Enter URL to custom repository","Introduceți adresa depozitului particular"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Adăugarea de module necunoscute poate fi FOARTE periculoasă, sigur doriți să continuați?')"
     "> Add", "> Adăugare"
     "> Read more about custom repositories",">Aflați mai multe despre depozitele particulare"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Redirecționare HTTPS, cache de 30 de zile, iframe-uri permise doar din aceeași origine, prevenirea detectării tipului MIME, politică mai strictă privind cookie-urile și referenții."
     ">ON \(warning: may break your website\)",">PORNIT (atenție: poate să defecteze siteul)"
     ">OFF \(reset htaccess to default\)",">OPRIT (restează htaccess la implicit)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Sunteți sigur? Site-ul poate înceta să funcționeze dacă SSL nu este configurat corect.')"
     "> Read more before enabling","> Aflați mai multe înainte de a activa"
     ">Backup",">Backup"
     "> Backup website","> Faceți backup siteului"
